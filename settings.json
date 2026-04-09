@@ -1,0 +1,34 @@
+{
+    "TRACK_BUFFER": 8000,
+    "YOLO_IOU": 0.357,
+    "TRACKER_TYPE": "deepocsort.yaml",
+    "TRACKED_CLASSES": [
+        2,
+        5,
+        7
+    ],
+    "STABILIZER_MAX_LOST": 45,
+    "STABILIZER_IOU": 0.054,
+    "STABILIZER_DIST": 600,
+    "STABILIZER_HISTORY": 5,
+    "STABILIZER_ANCHOR": 350,
+    "USE_ROI": true,
+    "ROI": [
+        [
+            274,
+            95
+        ],
+        [
+            526,
+            95
+        ],
+        [
+            632,
+            240
+        ],
+        [
+            120,
+            273
+        ]
+    ]
+}
