@@ -5,7 +5,7 @@ This is a professional-grade vehicle tracking and ID stabilization pipeline spec
 ![Tracking Demo](a.png)
 ![Control Interface](b.png)
 
-### 📺 [Watch the High-Speed Tracking Demo on YouTube](https://youtu.be/wSNixq5wu_0)
+### 📺 [Watch the High-Speed Tracking Demo on YouTube](https://youtu.be/Ton7FDil_Yk)
 
 ## 🚀 Key Features
 
