@@ -5,6 +5,8 @@ This is a professional-grade vehicle tracking and ID stabilization pipeline spec
 ![Tracking Demo](a.png)
 ![Control Interface](b.png)
 
+### 📺 [Watch the High-Speed Tracking Demo on YouTube](https://youtu.be/wSNixq5wu_0)
+
 ## 🚀 Key Features
 
 *   **Highway Optimized Detection**: Configured for 1280px resolution to detect small, distant vehicles entering the horizon.
