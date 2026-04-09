@@ -1,6 +1,9 @@
-# EagleVision: High-Speed Highway AI Tracker
+#  High-Speed Highway AI Tracker
 
-EagleVision is a professional-grade vehicle tracking and ID stabilization pipeline specifically optimized for **high-speed, high-density traffic monitoring**. Using a combination of YOLOv8 detection and the advanced Deep-OC-SORT tracking algorithm, EagleVision maintains rock-solid vehicle identities even at highway speeds.
+This is a professional-grade vehicle tracking and ID stabilization pipeline specifically optimized for **high-speed, high-density traffic monitoring**. Using a combination of YOLOv8 detection and the advanced Deep-OC-SORT tracking algorithm,  maintains rock-solid vehicle identities even at highway speeds.
+
+![Tracking Demo](a.png)
+![Control Interface](b.png)
 
 ## 🚀 Key Features
 
@@ -27,7 +30,7 @@ EagleVision is a professional-grade vehicle tracking and ID stabilization pipeli
 To ensure maximum stability and speed, the system uses a **Decoupled Multiprocess Architecture**:
 
 *   **Multiprocessing**: The AI Tracking Engine and the Live Tuning Control Panel run as **separate system processes**. This prevent the GUI from freezing during heavy AI workloads and ensures that ID stabilization remains perfectly sequential.
-*   **Sequential Reliability**: The core tracking loop is purposely kept sequential to maintain the integrity of the **History Depth** and **Trajectory Vectors**. Splitting the video stream into parallel chunks would break ID continuity, so EagleVision prioritizes "Timeline Integrity."
+*   **Sequential Reliability**: The core tracking loop is purposely kept sequential to maintain the integrity of the **History Depth** and **Trajectory Vectors**. Splitting the video stream into parallel chunks would break ID continuity, so  prioritizes "Timeline Integrity."
 *   **GPU Acceleration**: Full support for NVIDIA CUDA (configured in `config.py`) to handle high-resolution processing at high FPS.
 
 ---
@@ -50,7 +53,7 @@ Run the main script:
 ```bash
 python main_track.py
 ```
-This will automatically launch the tracking window and the **EagleVision Live Tuning** control panel.
+This will automatically launch the tracking window and the **Live Tuning** control panel.
 
 ### 2. Define your ROI
 On the first run, a window will appear. Click **4 points** on the frame to define your road monitoring zone. 
